@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_sharing"
+        android:icon="@mipmap/ic_add_contact"
+        android:title="@string/action_sharing"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_my_contacts"
+        android:icon="@mipmap/ic_people"
+        android:title="@string/action_my_contacts"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="101"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/action_about" />
+
+</menu>

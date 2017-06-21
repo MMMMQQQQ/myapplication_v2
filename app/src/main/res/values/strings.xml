@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_favorite">Love</string>
+    <!--contact list-->
+    <string name="action_my_contacts">My Contacts</string>
+
+    <!--action sharing-->
+
+    <string name="action_sharing">Sharing</string>
+
+    <!--about contacts-->
+    <string name="action_about">About</string>
+    <string name="title_activity_about_contacts">About Contacts</string>
+    <string name="about">This is an App created by QIU Mingming and QIAO Yue | CentraleSupelec | long project for the semester 8.</string>
+    <string name="copyright">Please reuse code in your project if you desire. You don\'t need to give attribution but if you can that would be appreciated. All I ask is that you don\'t sell this domestically and/or commercially for a profit or other form of gain.</string>
+
+    <string name="new_in_this_version">• New Layout \n• New Design \n• New features</string>
+    <string name="version_name">Version X.X.X</string>
+    <string name="title_activity_version_information">Version Information</string>
+
+    <string name="version">Version</string>
+    <string name="this_is_build_number">This is build number</string>
+    <string name="this_is_version_number">This is version number</string>
+    <string name="here_is_whats_new_in_this_version">Here is whats new in this version:</string>
+    <string name="ok">OK</string>
+
+    <!--Settings-->
+    <string name="action_settings">Settings</string>
+    <!--add Acontact-->
+    <string name="action_add_contact">Add Contact</string>
+
+
+    <!--YUE QIAO-->
+    <!--FriendManage-->
+    <string name="contacts_list">Contacts List</string>
+    <string name="add_buddy">Add Friend</string>
+    <string name="not_allow_empty">Can not be empty</string>
+    <string name="add_friend_self_tip">Can not add yourself as friend</string>
+    <string name="user_not_exsit">This user does not exsit</string>
+    <string name="friend_exsit">This user is already your friend</string>
+    <string name="add_successful">Add friend successfully</string>
+
+
+    <!--Settings-->
+    <string name="personal_info">Personal Information</string>
+    <string name="avatar">Avatar</string>
+    <string name="userId">User Id</string>
+    <string name="name">User Name</string>
+
+    <string name="pwd">Password</string>
+
+    <string name="create_team">Create Team</string>
+    <string name="square">Team</string>
+
+    <string name="App_Window">Window</string>
+
+
+
+</resources>

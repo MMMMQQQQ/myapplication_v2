@@ -1,0 +1,54 @@
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_about"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="@color/lcim_common_blue"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="90dp">
+
+        <TextView
+            android:id="@+id/about"
+            style="@style/layout_width_and_height_wrap"
+            android:layout_alignBottom="@+id/toolbar_about"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/about"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/copyright"
+            style="@style/layout_width_and_height_wrap"
+            android:layout_below="@+id/about"
+            android:layout_centerHorizontal="true"
+            android:text="@string/copyright"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/display_version_name"
+            style="@style/layout_width_and_height_wrap"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="210dp"
+            android:clickable="true"
+            android:text="@string/version_name" />
+    </LinearLayout>
+
+    </FrameLayout>
+
+<!--
+</RelativeLayout>-->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/create_team"
+        android:icon="@drawable/add_icon"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/fri_manage"
+        android:title="Friend Management"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Settings"
+        android:title="Personal Information"
+        app:showAsAction="never"/>
+
+</menu>
